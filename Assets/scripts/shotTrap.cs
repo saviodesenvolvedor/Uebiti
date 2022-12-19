@@ -6,7 +6,7 @@ public class shotTrap : MonoBehaviour
 {
     public GameObject tiro;
 
-    public int velocidadeTiro;
+    public float velocidadeTiro;
     private float tempoTiro;
     private void FixedUpdate()
     {
