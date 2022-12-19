@@ -1,0 +1,586 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.15f1 (e8e88683f834) revision 15263878'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 32157 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/savio/OneDrive/Documents/Projetos unity/Uebiti
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+48833
+Successfully changed project path to: C:/Users/savio/OneDrive/Documents/Projetos unity/Uebiti
+C:/Users/savio/OneDrive/Documents/Projetos unity/Uebiti
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7868] Host "[IP] 172.23.176.1 [Port] 0 [Flags] 2 [Guid] 2000000119 [EditorId] 2000000119 [Version] 1048832 [Id] WindowsEditor(7,laptop-rookie) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7868] Host "[IP] 172.23.176.1 [Port] 0 [Flags] 2 [Guid] 2000000119 [EditorId] 2000000119 [Version] 1048832 [Id] WindowsEditor(7,laptop-rookie) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 158.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/savio/OneDrive/Documents/Projetos unity/Uebiti/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
+    Vendor:   ATI
+    VRAM:     16078 MB
+    Driver:   31.0.12016.3004
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006858 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 155.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.942 seconds
+Domain Reload Profiling:
+	ReloadAssembly (942ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (702ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (159ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (423ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (156ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.021348 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\savio\OneDrive\Documents\Projetos unity\Uebiti\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\savio\OneDrive\Documents\Projetos unity\Uebiti\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 150.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.898 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1899ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1555ms)
+			LoadAssemblies (170ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (376ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (848ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (151ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (480ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4075 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (56.1 KB). Loaded Objects now: 4532.
+Memory consumption went from 151.9 MB to 151.9 MB.
+Total: 6.147900 ms (FindLiveObjects: 0.658000 ms CreateObjectMapping: 1.208100 ms MarkObjects: 4.115600 ms  DeleteObjects: 0.164000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 433808.893968 seconds.
+  path: Assets/Scenes/lvl_33 1.unity
+  artifactKey: Guid(91163b44990ee824e8cd3b8b446890ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/lvl_33 1.unity using Guid(91163b44990ee824e8cd3b8b446890ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08a6fe032fa21ebd3496690f956bad7') in 0.022062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 549.090742 seconds.
+  path: Assets/tilemap/2.asset
+  artifactKey: Guid(747a03006ac0548478653cbd56b130a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/2.asset using Guid(747a03006ac0548478653cbd56b130a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926a0aa4dd551599d4adec9deb99712e') in 0.126890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/tilemap/bg_cave_greenish_16x16_tile_06 1.asset
+  artifactKey: Guid(c0dd8cee0cedfcc43b14a77b5e672df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/bg_cave_greenish_16x16_tile_06 1.asset using Guid(c0dd8cee0cedfcc43b14a77b5e672df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f863fb21d276162c4fa4ce3184b3700c') in 0.031479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/tilemap/bg_cave_greenish_16x16_tile_09.asset
+  artifactKey: Guid(03f7e2983d4aaab49a93ded0594b2cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/bg_cave_greenish_16x16_tile_09.asset using Guid(03f7e2983d4aaab49a93ded0594b2cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61798de20c404290b84f69ec81dace1') in 0.042582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/tilemap/bg_cave_greenish_16x16_tile_05.asset
+  artifactKey: Guid(1563baebe025a7344b70f8aa6c41e7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/bg_cave_greenish_16x16_tile_05.asset using Guid(1563baebe025a7344b70f8aa6c41e7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400457f9a9d4e69a41d0b8bd4b02a0f7') in 0.026027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/tilemap/bg_cave_greenish_16x16_tile_07.asset
+  artifactKey: Guid(3a4142c649b89304087ce02fc0b6782e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/bg_cave_greenish_16x16_tile_07.asset using Guid(3a4142c649b89304087ce02fc0b6782e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd9ec22e6d64ea2ab16565d34dd4caf') in 0.029191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/tilemap/bg_cave_greenish_16x16_tile_01 1.asset
+  artifactKey: Guid(441f441eb6673354484ff22d31fee0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/bg_cave_greenish_16x16_tile_01 1.asset using Guid(441f441eb6673354484ff22d31fee0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b7f30023c3e299e56d0def8a8cccc1') in 0.030560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/tilemap/bg_cave_greenish_16x16_tile_08.asset
+  artifactKey: Guid(8fe7cb31d6883504893969e777fd414b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/bg_cave_greenish_16x16_tile_08.asset using Guid(8fe7cb31d6883504893969e777fd414b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a655cb70fb06dc7b0d1f30a3b50b8f00') in 0.039586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/tilemap/bg_cave_greenish_16x16_tile_01.asset
+  artifactKey: Guid(00f9efcc16b22c145b53f274d3322b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/bg_cave_greenish_16x16_tile_01.asset using Guid(00f9efcc16b22c145b53f274d3322b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8616e1bb8a721513c411ae9a2e18248') in 0.025324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/tilemap/4.asset
+  artifactKey: Guid(e92839d3c08e37d4cb9152a9c15d4e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/4.asset using Guid(e92839d3c08e37d4cb9152a9c15d4e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7527fa52c226e15457b0462d67071400') in 0.040016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/tilemap/bg_cave_greenish_16x16_tile_03.asset
+  artifactKey: Guid(614c40c34990b1a42ba097dd5170e0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/bg_cave_greenish_16x16_tile_03.asset using Guid(614c40c34990b1a42ba097dd5170e0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340cc9aa2d83e5d8e49a55cafed2a0a1') in 0.028594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/tilemap/bg_cave_greenish_16x16_tile_02 1.asset
+  artifactKey: Guid(de212ea78f393594187a696f070bd200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/bg_cave_greenish_16x16_tile_02 1.asset using Guid(de212ea78f393594187a696f070bd200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc7ac8f6e5aff3126fde65fa692330c') in 0.033402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/tilemap/bg_cave_greenish_16x16_tile_02.asset
+  artifactKey: Guid(8475005aee19b7643a74bb1d397081cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/bg_cave_greenish_16x16_tile_02.asset using Guid(8475005aee19b7643a74bb1d397081cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab575a547cdbd9718a8be92281ef49b3') in 0.023432 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011675 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\savio\OneDrive\Documents\Projetos unity\Uebiti\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\savio\OneDrive\Documents\Projetos unity\Uebiti\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.233 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2234ms)
+		BeginReloadAssembly (329ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (103ms)
+		EndReloadAssembly (1677ms)
+			LoadAssemblies (222ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (561ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (704ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (444ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.8 KB). Loaded Objects now: 4539.
+Memory consumption went from 151.3 MB to 151.3 MB.
+Total: 8.454700 ms (FindLiveObjects: 0.894500 ms CreateObjectMapping: 0.512800 ms MarkObjects: 6.961000 ms  DeleteObjects: 0.083900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3277.187343 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x32/bg_cave_blueish_32x32_tile_02.png
+  artifactKey: Guid(0ab901541cc28634dad10c1e4e00806f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x32/bg_cave_blueish_32x32_tile_02.png using Guid(0ab901541cc28634dad10c1e4e00806f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a6b5c3d438e146689ef4915e77259b') in 0.127116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x32/bg_cave_blueish_32x32_tile_07.png
+  artifactKey: Guid(525b44cb6991ef14891d3787cacf9135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x32/bg_cave_blueish_32x32_tile_07.png using Guid(525b44cb6991ef14891d3787cacf9135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0942708b7cc2352f9959fd6e3240cf') in 0.035979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x32/bg_cave_blueish_32x32_tile_03.png
+  artifactKey: Guid(35a772e7506ca1240a6d63d9b7c444b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x32/bg_cave_blueish_32x32_tile_03.png using Guid(35a772e7506ca1240a6d63d9b7c444b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41d633ea3298b4f44b6440579098145') in 0.028885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.618771 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x16/bg_cave_blueish_32x16_tile_02.png
+  artifactKey: Guid(e48ec860b8286dd46ba99e5f68659626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x16/bg_cave_blueish_32x16_tile_02.png using Guid(e48ec860b8286dd46ba99e5f68659626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4067df0c879651aca8e241b8852fd4') in 0.029632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x16/bg_cave_blueish_32x16_tile_11.png
+  artifactKey: Guid(43cf7306ab730634380aceb97ed4021c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x16/bg_cave_blueish_32x16_tile_11.png using Guid(43cf7306ab730634380aceb97ed4021c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a888a75161f818b7f9b0bada56396d4') in 0.043800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x16/bg_cave_blueish_32x16_tile_08.png
+  artifactKey: Guid(c2228e32f0e2eee4491b20a02dd978a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x16/bg_cave_blueish_32x16_tile_08.png using Guid(c2228e32f0e2eee4491b20a02dd978a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec05a3b50c47f7747bb34d5799dcb455') in 0.038952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x16/bg_cave_blueish_32x16_tile_10.png
+  artifactKey: Guid(6531b3517e1c8df4fba109d7e2b1d0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x16/bg_cave_blueish_32x16_tile_10.png using Guid(6531b3517e1c8df4fba109d7e2b1d0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c276a29cb3f361530f29d952638f42') in 0.036748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x16/bg_cave_blueish_32x16_tile_05.png
+  artifactKey: Guid(e2b5cc3f7fb160e448444df1022191a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x16/bg_cave_blueish_32x16_tile_05.png using Guid(e2b5cc3f7fb160e448444df1022191a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd5f78fe53ace7ee6a5caf4df4bfaa6') in 0.034833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x16/bg_cave_blueish_32x16_tile_12.png
+  artifactKey: Guid(42624f10c3d9d5243bf6da152aa42275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x16/bg_cave_blueish_32x16_tile_12.png using Guid(42624f10c3d9d5243bf6da152aa42275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1678a790defbfa702f27d6188dd69d3e') in 0.034244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x16/bg_cave_blueish_32x16_tile_15.png
+  artifactKey: Guid(8d8343d2d3898c44c8134d7d1f01ba1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x16/bg_cave_blueish_32x16_tile_15.png using Guid(8d8343d2d3898c44c8134d7d1f01ba1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e750e2a73dce681b648f541731a4c388') in 0.040221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x16/bg_cave_blueish_32x16_tile_03.png
+  artifactKey: Guid(53d698c9d62cb0b42b7df00023d9e986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x16/bg_cave_blueish_32x16_tile_03.png using Guid(53d698c9d62cb0b42b7df00023d9e986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c7aa05d55375b3203de2989d24fde4') in 0.040703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.507707 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_32x16/bg_cave_greenish_32x16_tile_02.png
+  artifactKey: Guid(d0705f62cb7cd4048b40d38fc9778776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_32x16/bg_cave_greenish_32x16_tile_02.png using Guid(d0705f62cb7cd4048b40d38fc9778776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990d0c2d41615a3b6fa242ce3e372a47') in 0.037700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_32x16/bg_cave_greenish_32x16_tile_13.png
+  artifactKey: Guid(32ff8eac84313644f832e98a0af4ab8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_32x16/bg_cave_greenish_32x16_tile_13.png using Guid(32ff8eac84313644f832e98a0af4ab8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567532541649417a3163ded4e02ccf0b') in 0.041852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_32x16/bg_cave_greenish_32x16_tile_04.png
+  artifactKey: Guid(191ef1c46688d654e884d70ef135ad67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_32x16/bg_cave_greenish_32x16_tile_04.png using Guid(191ef1c46688d654e884d70ef135ad67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088c7785a1cb913d281d4806308db4ea') in 0.033352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_32x16/bg_cave_greenish_32x16_tile_06.png
+  artifactKey: Guid(d427bbbab0b9dfc47a22e7d85a630792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_32x16/bg_cave_greenish_32x16_tile_06.png using Guid(d427bbbab0b9dfc47a22e7d85a630792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1349d5d60a98eed722d291a2ab004f12') in 0.025406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_32x16/bg_cave_greenish_32x16_tile_16.png
+  artifactKey: Guid(caa43eb6365d4074cb4f1954180198c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_32x16/bg_cave_greenish_32x16_tile_16.png using Guid(caa43eb6365d4074cb4f1954180198c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff14e36d6110b25e42dab5ff7597b4af') in 0.032375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_32x16/bg_cave_greenish_32x16_tile_07.png
+  artifactKey: Guid(7e69568ec5c23ab4780301d480b1ec29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_32x16/bg_cave_greenish_32x16_tile_07.png using Guid(7e69568ec5c23ab4780301d480b1ec29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4822cddad3424cf39c821139a63ac0') in 0.032475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_32x16/bg_cave_greenish_32x16_tile_14.png
+  artifactKey: Guid(13303dfed882ef84ea96ea729fa23664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_32x16/bg_cave_greenish_32x16_tile_14.png using Guid(13303dfed882ef84ea96ea729fa23664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af3505b2824d1a2c4d66f67175e79d9') in 0.042183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_32x16/bg_cave_greenish_32x16_tile_08.png
+  artifactKey: Guid(4140dd4d95aa0ab42b4a0753d9c46419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_32x16/bg_cave_greenish_32x16_tile_08.png using Guid(4140dd4d95aa0ab42b4a0753d9c46419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa12afe21aa4f5462a6e5a0a1216961') in 0.028358 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010852 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\savio\OneDrive\Documents\Projetos unity\Uebiti\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\savio\OneDrive\Documents\Projetos unity\Uebiti\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.773 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1774ms)
+		BeginReloadAssembly (231ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (1329ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (401ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (607ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (440ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4549.
+Memory consumption went from 155.6 MB to 155.6 MB.
+Total: 4.835500 ms (FindLiveObjects: 0.606600 ms CreateObjectMapping: 0.247900 ms MarkObjects: 3.938000 ms  DeleteObjects: 0.040100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016753 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\savio\OneDrive\Documents\Projetos unity\Uebiti\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\savio\OneDrive\Documents\Projetos unity\Uebiti\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.201 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2202ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1876ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (461ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (952ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (158ms)
+				ProcessInitializeOnLoadAttributes (612ms)
+				ProcessInitializeOnLoadMethodAttributes (120ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4552.
+Memory consumption went from 155.6 MB to 155.6 MB.
+Total: 10.325700 ms (FindLiveObjects: 0.656000 ms CreateObjectMapping: 0.285000 ms MarkObjects: 9.306800 ms  DeleteObjects: 0.075400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013138 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\savio\OneDrive\Documents\Projetos unity\Uebiti\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\savio\OneDrive\Documents\Projetos unity\Uebiti\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.272 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2274ms)
+		BeginReloadAssembly (312ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (118ms)
+		EndReloadAssembly (1735ms)
+			LoadAssemblies (210ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (510ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (834ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (560ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4555.
+Memory consumption went from 155.7 MB to 155.6 MB.
+Total: 8.417200 ms (FindLiveObjects: 0.758000 ms CreateObjectMapping: 0.168300 ms MarkObjects: 7.353800 ms  DeleteObjects: 0.133400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
