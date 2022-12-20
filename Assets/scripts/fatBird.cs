@@ -31,7 +31,7 @@ public class fatBird : MonoBehaviour
             Destroy(gameObject, 0.10f);
         }
         
-        if(col.gameObject.layer == 3)
+        if(col.gameObject.layer == 3 || gameObject.layer == 4)
         {
             anim.SetTrigger("dead");
             Destroy(gameObject, 0.10f);

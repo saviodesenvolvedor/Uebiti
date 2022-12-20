@@ -59,7 +59,7 @@ public class Rino : MonoBehaviour
                 anim.SetTrigger("dead");
                 capsuleCollider2D.enabled = false;
                 rig.bodyType = RigidbodyType2D.Kinematic;
-                Destroy(gameObject, 0.5f);
+                Destroy(gameObject, 0.10f);
             }
             else
             {
